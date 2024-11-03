@@ -1,0 +1,72 @@
+/* Tiled Background */
+.background-tile {
+  background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
+  background-repeat: repeat;
+}
+
+/* Frame Table */
+.frame-table {
+  width: 100%;
+  height: 100vh;
+  border: 5px solid #FF00FF;
+  table-layout: fixed;
+}
+
+.frame-sidebar {
+  width: 20%;
+  background-color: #000;
+  color: #00FF00;
+  padding: 15px;
+  border-right: 5px solid #FF00FF;
+  font-family: Arial, sans-serif;
+}
+
+.frame-content {
+  padding: 20px;
+  color: #FFFFFF;
+  background-color: #3333FF;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+/* Animated Title */
+.animated-title {
+  font-size: 2em;
+  color: #FF33CC;
+  animation: color-change 2s infinite;
+}
+
+/* Animated Text */
+.animated-text {
+  font-size: 1.5em;
+  color: #00FFFF;
+  animation: pulse 1s infinite alternate;
+}
+
+/* GIF Styling */
+.gif {
+  width: 120px;
+  margin: 10px;
+  border: 3px solid #FF00FF;
+}
+
+/* Keyframes for Text Animations */
+@keyframes color-change {
+  0% { color: #FF33CC; }
+  50% { color: #00FFCC; }
+  100% { color: #FF33CC; }
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.1); }
+}
+
+/* Marquee */
+.marquee {
+  font-size: 1.5em;
+  color: #FFFF00;
+  background-color: #FF00FF;
+  padding: 10px;
+  border-top: 2px solid #FFFFFF;
+  margin: 10px 0;
+}
